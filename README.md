@@ -5,6 +5,10 @@ Two diffusion models are implemented: the Independent Cascade (IC) probabilistic
 
 The goal is to analyze worst-case attack scenarios, identify critical nodes, and evaluate structural resilience across different network architectures.
 
+# Probabilistic Attack Graph Simulator (PAGS)
+PAGS is a network robustness analysis project implemented using Python and the NetworkX library. The framework models attack propagation on graph-based networks and evaluates system resilience through Monte Carlo simulations. Key metrics such as Network Blast Radius, Overall Compromise Probability, and RASR (Robustness–Attack Success Rate) are computed to quantify how attacks spread and how likely a system is to be compromised. The project provides a lightweight and flexible environment for analyzing probabilistic attack behavior using graph theory, statistical simulation, and visualization tools.
+
+This project implements a probabilistic attack propagation model on graph-based networks using NetworkX. Monte Carlo simulations are performed to estimate the blast radius of attacks, the probability of overall system compromise, and the RASR robustness metric. The implementation relies on Python scientific libraries (NumPy, Pandas, Matplotlib) and provides visual and statistical insights into network resilience under stochastic attack scenarios.
 # Prerequisites
 
 Before running the code, make sure you have the following installed:
