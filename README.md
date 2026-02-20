@@ -1,4 +1,10 @@
 # LLM-MAS-Resilience
+This project models fault propagation and hallucination spread in Large Language Model Multi-Agent Systems (LLM-MAS) using graph-based simulations. Different network topologies including Path, Complete, Tree, and Small-World graphs are analyzed to evaluate system resilience under random and targeted (high-impact) fault injection strategies. 
+
+Two diffusion models are implemented: the Independent Cascade (IC) probabilistic model and a Trust-based threshold model. The project compares how topology structure, node centrality, and trust dynamics influence cascade behavior, system collapse, and robustness.
+
+The goal is to analyze worst-case attack scenarios, identify critical nodes, and evaluate structural resilience across different network architectures.
+
 # Prerequisites
 
 Before running the code, make sure you have the following installed:
